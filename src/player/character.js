@@ -13,7 +13,7 @@ const STILL = 0.12; // below this (m/s) the spectator stands
 const SETTLE = 8; // how quickly the blend follows the speed (1/s)
 
 export async function loadSpectatorCharacter() {
-  const gltf = await new GLTFLoader().loadAsync('/models/spectator.glb');
+  const gltf = await new GLTFLoader().loadAsync(`${import.meta.env.BASE_URL}models/spectator.glb`);
   const object = gltf.scene.getObjectByName('Spectator');
   object.traverse((o) => {
     if (!o.isSkinnedMesh) return;

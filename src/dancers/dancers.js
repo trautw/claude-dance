@@ -4,7 +4,7 @@ import { activeHolds, gripPoint } from '../dance/holds.js';
 import { DancerRig } from './rig.js';
 
 export async function loadDancers({ perf, toWorld }) {
-  const gltf = await new GLTFLoader().loadAsync('/models/dancers.glb');
+  const gltf = await new GLTFLoader().loadAsync(`${import.meta.env.BASE_URL}models/dancers.glb`);
   const templates = { M: gltf.scene.getObjectByName('Man'), W: gltf.scene.getObjectByName('Woman') };
   const clips = {
     M: gltf.animations.find((a) => a.name === 'bow'),

@@ -123,7 +123,7 @@ function addLights(scene, renderer) {
 export async function loadHall(scene, renderer) {
   renderer.shadowMap.enabled = true;
   renderer.shadowMap.type = THREE.PCFShadowMap;
-  const gltf = await new GLTFLoader().loadAsync('/models/hall.glb');
+  const gltf = await new GLTFLoader().loadAsync(`${import.meta.env.BASE_URL}models/hall.glb`);
   dressMaterials(gltf.scene);
   scene.add(gltf.scene);
   addLights(scene, renderer);

@@ -5,6 +5,8 @@ Walk round a village hall in third person while a Scottish country dance set dan
 script in this repository, every texture is procedural, and all the music is played by Web
 Audio, so nothing is downloaded at runtime.
 
+**Try it in the browser:** https://trautw.github.io/claude-dance/
+
 ## Run it
 
 ```bash

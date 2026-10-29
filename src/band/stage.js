@@ -157,7 +157,7 @@ function prop(gltf, name, parent) {
 }
 
 export async function loadBandStage(perf) {
-  const gltf = await new GLTFLoader().loadAsync('/models/band.glb');
+  const gltf = await new GLTFLoader().loadAsync(`${import.meta.env.BASE_URL}models/band.glb`);
   const plan = planPlaying(arrange(perf));
   const root = new THREE.Group();
   root.name = 'Band';
