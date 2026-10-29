@@ -1,0 +1,5 @@
+{
+  "comment": "Dancer proportions in metres, read by blender/build_dancers.py and the app's leg IK.",
+  "M": { "height": 1.8, "hipHeight": 0.93, "hipWidth": 0.1, "thigh": 0.43, "shin": 0.43, "ankleHeight": 0.08 },
+  "W": { "height": 1.66, "hipHeight": 0.86, "hipWidth": 0.09, "thigh": 0.4, "shin": 0.4, "ankleHeight": 0.075 }
+}

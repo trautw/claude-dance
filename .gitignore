@@ -1,0 +1,9 @@
+node_modules/
+dist/
+test-results/
+playwright-report/
+# Test and debugging output, except the review screenshots docs/quality-passes.md refers to.
+screenshots/*
+!screenshots/review/
+__pycache__/
+.DS_Store

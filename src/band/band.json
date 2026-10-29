@@ -1,0 +1,23 @@
+{
+  "comment": "The band's instruments, in each musician's own frame: metres, y up from the stage, facing +z, the musician's left is +x, origin on the floor under the hips. Read by blender/build_band.py (geometry) and the app (where hands, bows and sticks go), so they agree.",
+  "seatHeight": 0.47,
+  "piano": {
+    "lowestMidi": 21, "whiteKeys": 52, "whiteWidth": 0.0235, "middleWhite": 26,
+    "keyTop": 0.74, "front": 0.4, "keyDepth": 0.15,
+    "body": { "width": 1.48, "depth": 0.58, "height": 1.28 }
+  },
+  "drums": {
+    "snare": { "at": [0.2, 0.62, 0.36], "radius": 0.17, "depth": 0.14 },
+    "ride": { "at": [-0.46, 0.98, 0.42], "radius": 0.26, "tilt": 0.2 },
+    "crash": { "at": [0.46, 1.2, 0.56], "radius": 0.22, "tilt": 0.3 },
+    "hihat": { "at": [0.48, 0.86, 0.22], "radius": 0.18 },
+    "kick": { "at": [0.0, 0.3, 0.66], "radius": 0.29, "depth": 0.38 },
+    "rackTom": { "at": [0.1, 0.84, 0.6], "radius": 0.14, "depth": 0.16 },
+    "floorTom": { "at": [-0.42, 0.52, 0.28], "radius": 0.2, "depth": 0.34 },
+    "pedal": [-0.12, 0.0, 0.42]
+  },
+  "stick": { "length": 0.41, "grip": 0.08 },
+  "fiddle": { "length": 0.6, "body": 0.36, "bridge": 0.19, "contact": [0.0, 0.066, 0.22], "neck": [0.0, 0.05, 0.45] },
+  "bow": { "length": 0.74 },
+  "accordion": { "height": 0.42, "depth": 0.19, "trebleWidth": 0.09, "bassWidth": 0.08, "keysTop": 0.17, "keysBottom": -0.17 }
+}

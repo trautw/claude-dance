@@ -1,0 +1,22 @@
+{
+  "comment": "The hall, in world metres (y up). Read by blender/build_hall.py and the app, so geometry and collisions agree. The set is centred on the origin with its top (1st place) toward -x, where the stage is.",
+  "interior": {"minX": -11, "maxX": 11, "minZ": -7.5, "maxZ": 7.5, "height": 6.5},
+  "stage": {"minX": -11, "maxX": -6.6, "minZ": -7.5, "maxZ": 7.5, "height": 0.7},
+  "steps": {"minX": -6.6, "maxX": -5.75, "minZ": 4.9, "maxZ": 6.5, "count": 3},
+  "benches": {"xs": [-4.6, -1.0, 2.6, 6.2], "length": 2.4, "depth": 0.42, "seat": 0.45, "gap": 0.06},
+  "wainscotHeight": 1.25,
+  "windows": {"xs": [-4.6, -1.0, 2.6, 6.2, 9.4], "width": 1.5, "sill": 1.6, "height": 3.0},
+  "doors": {"width": 2.4, "height": 2.7},
+  "beams": {"spacing": 2.75, "width": 0.3, "depth": 0.35},
+  "lamps": [[-3.8, -3.6], [-3.8, 3.6], [3.4, -3.6], [3.4, 3.6], [9.0, -3.6], [9.0, 3.6]],
+  "lampHang": 4.1,
+  "spectatorStart": {"x": 4.6, "z": 3.6, "facing": [-0.78, -0.62]},
+  "band": {
+    "comment": "Where each musician sits or stands on the stage (world x/z, facing as a direction on the floor), and the floor zone in front of the stage from which E pauses or resumes the band.",
+    "zone": {"minX": -6.6, "maxX": -4.3, "minZ": -4.0, "maxZ": 4.0},
+    "accordion": {"x": -8.1, "z": 0.95, "facing": [1, 0]},
+    "fiddle": {"x": -7.55, "z": -0.85, "facing": [0.97, 0.24]},
+    "piano": {"x": -8.5, "z": -3.0, "facing": [0.45, -0.89]},
+    "drums": {"x": -9.3, "z": 2.9, "facing": [0.93, -0.37]}
+  }
+}
